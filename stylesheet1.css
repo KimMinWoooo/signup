@@ -1,0 +1,269 @@
+body {
+    font-size: 12px;
+}
+
+.main-wrap {
+    width: 60%;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 0px;
+    padding: 30px;
+}
+
+.border {
+    border: black solid 1px;
+}
+
+.div-wrap1 {
+    border: #e9e3e3 solid 1px;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 30px;
+    border: black solid 1px;
+}
+
+.div-wrap2 {
+    width: 450px;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.inputbox {
+    margin: 7px;
+    border-bottom: #e9e3e3 solid 1px;
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+}
+
+.input {
+    float: left;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 15px;
+    width: 10%;
+}
+
+.inputphone {
+    float: left;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 10px 15px;
+    width: 10%;
+}
+
+.value {
+    float: left;
+    width: 82%;
+    height: 20px;
+    padding: 10px;
+}
+
+.value1 {
+    float: left;
+    padding: 10px;
+}
+
+.value1phone {
+    float: left;
+    padding: 5px 9px;
+}
+
+.value2 {
+    float: left;
+    padding: 1px;
+}
+
+.a1 {
+    padding: 6px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border: none;
+    font-size: 12px;
+}
+
+.a2 {
+    padding: 7px;
+    border: black solid 1px;
+    text-decoration: none;
+    width: 80px;
+    color: black;
+}
+
+.a3 {
+    padding-top: 13px;
+    margin-top: 13px;
+    font-size: 11px;
+    color: #bfb8b8;
+}
+
+.p1 {
+}
+
+#p2 {
+    font-size: 10px;
+    color: #dedbdb;
+}
+
+#recommandID0 {
+    margin: 7px;
+    border-bottom: #e9e3e3 solid 1px;
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+    border-bottom: none;
+    width: 100%;
+}
+
+.rr {
+    width: 100%;
+    overflow: hidden;
+}
+
+.join {
+    background-color: black;
+    color: white;
+    float: left;
+    width: 45%;
+    margin-right: 5px;
+    padding: 16px;
+    font-size: 15px;
+    border: none;
+}
+
+.cancel {
+    color: black;
+    border: black solid 1px;
+    float: left;
+    width: 35%;
+    padding: 15px;
+    font-size: 15px;
+}
+
+.favorite {
+}
+
+#lb_idcheck {
+}
+
+#textarea1 {
+    width: 50%;
+    margin-top: 100px;
+    height: 500px;
+}
+
+#addid {
+    float: left;
+    padding: 10px;
+    width: 62px;
+    float: right;
+    padding: 3px;
+}
+
+#addida {
+    text-decoration: none;
+    color: black;
+    padding: 0;
+    border: black solid 1px;
+}
+
+#contents {
+    width: 100%;
+}
+
+.Value1height {
+    height: 23px;
+}
+
+.paddingright0 {
+    padding-right: 0;
+}
+
+.Teldiv {
+    height: 29px;
+    width: 50px;
+}
+
+.paddingleft0 {
+    padding-left: 0;
+}
+
+.inputboxcss1 {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.inputphonecss {
+    padding-top: 15px;
+}
+
+.value1phonecss1 {
+    padding-top: 10px;
+    padding-right: 0;
+}
+
+.height100 {
+    height: 100px;
+}
+
+.value1css {
+    margin-top: 4px;
+    padding-bottom: 0px;
+}
+
+.emailYN {
+    margin-left: 0;
+    height: 12px;
+    padding-bottom: 15px;
+    padding-top: 4px;
+}
+
+.inputboxcss2 {
+    clear: both;
+    margin-left: 0;
+    border-bottom: none;
+}
+
+.value1phonecss2 {
+    padding-top: 10px;
+    padding-left: 0;
+}
+
+.paddingtop10 {
+    padding-top: 10px;
+}
+
+.marginTop10 {
+    margin-top: 10px;
+}
+
+.Pstyle {
+    opacity: 0;
+    display: none;
+    position: relative;
+    width: auto;
+    border: 5px solid #fff;
+    padding: 40px;
+    background-color: #fff;
+}
+
+.b-close {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    padding: 5px;
+    display: inline-block;
+    cursor: pointer;
+}
+.searchidr{
+    float:left;
+    margin-top:10px;
+    padding:5px;
+    cursor:pointer;
+    border:black solid 1px;
+    
+}

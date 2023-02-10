@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+    <title>회원가입</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="StyleSheet1.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    
+
+</head>
+<body>
+    <div class="main-wrap">
+        <form name="myForm" target="_blank" method="post">
+            <div class="div-wrap1">
+                <div class="inputbox">
+                    <div class="input">이름</div>
+                    <div class="value1"><input id="name" class="Value1height" type="text" name="name" size="40" tabindex="2" autofocus /><a id="alertid" class="a3"> &nbsp;&nbsp;</a></div>
+                </div>
+                <div class="inputbox">
+                    <div class="input">생년월일</div>
+                    <div class="value1"><input id="dob" class="Value1height" type="date" name="dob" size="40" tabindex="1"></div>
+                    <div class="value1">
+                        <input type="radio" id="female" checked name="gender" tabindex="3" value="female" /> 여
+                        <input type="radio" id="male" name="gender" value="male" tabindex="5" /> 남
+                    </div>
+                </div>
+                <div class="inputbox">
+                    <div class="input">아이디</div>
+                    <div class="value1"><input id="id" class="Value1height" type="text" name="id" size="40" maxlength="20" />&nbsp;&nbsp;14~20자의 영,숫자만 사용할 수 있습니다.</a></div>
+
+                </div>
+
+                <div class="inputbox">
+                    <div class="input">비밀번호</div>
+                    <div class="value1"><input id="password" class="Value1height" type="password" name="password" size="40" maxlength="16" tabindex="4" /></div>
+                </div>
+                <div class="inputbox">
+                    <div class="input">비밀번호확인</div>
+                    <div class="value1"><input id="repassword" class="Value1height" type="password" name="repassword" size="40" maxlength="16" /></div>
+                </div>
+                <div class="inputbox">
+                    <div class="input">휴대번호</div>
+                    <div class="value1 paddingright0">
+                        <select id ="telno" name="Tel" class="Teldiv">
+                            <option>010</option>
+                        </select> - &nbsp;
+                    </div>
+                    
+                
+                    <div class="value1phone value1phonecss2"><input id="pho1" class="Value1height" type="text" name="phoneNo1" size="5" maxlength="4" /> - <input id="pho2" class="Value1height" type="text" name="phoneNo2" size="5" maxlength="4" /></div>
+                    <div class="inputbox inputboxcss2">
+                        <div class="value1phone">
+                        </div>
+                    </div>
+                </div>
+                <div class="inputbox inputboxcss1">
+                    <div class="input inputphonecss">이메일 주소</div>
+                    <div class="value1phone paddingtop10"><input id="email" class="Value1height" type="email" name="email" size="40" />&nbsp;&nbsp;<input class="a1" type="button" value="중복확인" onclick="showIDcheckPopup()" /></div>
+                    <div class="inputbox inputboxcss2">
+                    </div>
+                </div>
+            </div>
+            <div class="div-wrap2">
+                <div><input class="join" type="button" value="회원가입" /></div>
+                <div class="cancel">&nbsp;&nbsp;&nbsp;가입취소</div>
+                <div><input type="submit" value="출력" id="print"/></div>
+
+            </div>
+        </form>
+    <script src="log.js"></script>
+</body>
+
+</html>
